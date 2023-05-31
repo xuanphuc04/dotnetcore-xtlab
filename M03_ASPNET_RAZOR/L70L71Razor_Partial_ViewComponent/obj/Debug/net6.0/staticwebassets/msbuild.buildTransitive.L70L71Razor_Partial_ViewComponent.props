@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\L70L71Razor_Partial_ViewComponent.props" />
-</Project>
