@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
+
+      .login-title {
+        padding: 16px;
+      }
+
+      .input-wrap {
+        padding: 16px;
+      }
+
+      .input-group {
+        margin-top: 12px;
+      }
+
+      .input-label {
+        display: inline-block;
+        font-size: 14px;
+      }
+
+      .input-text {
+        display: block;
+        padding: 12px;
+        outline: none;
+        font-size: 16px;
+        border: 2px solid #000;
+        border-radius: 8px;
+        min-width: 320px;
+      }
+
+      .btn {
+        display: inline-block;
+        min-width: 140px;
+        border: none;
+        outline: none;
+        background: #000;
+        color: #fff;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+      }
+      .btn:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        cursor: pointer;
+      }
+      .btn:active {
+        background-color: #000;
+      }
+
+      .jwt-wrap {
+        padding: 16px;
+        max-width: 420px;
+      }
+      .jwt-wrap .content {
+        word-wrap: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="login-title">Login</h1>
+      <div class="input-wrap">
+        <div class="input-group">
+          <label class="input-label" for="username">Username</label>
+          <input class="input-text" id="username" type="text" />
+        </div>
+        <div class="input-group">
+          <label class="input-label" for="password">Password</label>
+          <input class="input-text" id="password" type="text" />
+        </div>
+        <div class="input-group">
+          <button class="btn" id="login-btn">Login</button>
+          <button class="btn" id="getadmin-btn">Get Admin</button>
+          <button class="btn" id="getseller-btn">Get Seller</button>
+        </div>
+      </div>
+
+      <div class="jwt-wrap">
+        <p class="title">Result:</p>
+        <p class="content"></p>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    const loginBtn = document.getElementById("login-btn");
+    loginBtn.onclick = () => {
+      Login();
+    };
+
+    const getAdminBtn = document.getElementById("getadmin-btn");
+    getAdminBtn.onclick = () => {
+      GetAdmin();
+    };
+
+    const getSellerBtn = document.getElementById("getseller-btn");
+    getSellerBtn.onclick = () => {
+      GetSeller();
+    };
+
+    const Login = () => {
+      const userName = document.getElementById("username");
+      const password = document.getElementById("password");
+      const tokenContainer = document.querySelector(".jwt-wrap .content");
+
+      fetch("https://localhost:7119/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        body: JSON.stringify({
+          username: userName.value,
+          password: password.value,
+        }),
+      })
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+          tokenContainer.innerText = data.token;
+        })
+        .catch((err) => {
+          console.error(err.message);
+        });
+    };
+
+    const GetAdmin = () => {
+      const tokenContainer = document.querySelector(".jwt-wrap .content");
+
+      fetch("https://localhost:7119/api/user/admins", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${tokenContainer.innerText}`,
+        },
+      })
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+          if (data) {
+            const html = Object.keys(data).map((key) => {
+              return `<li>${key}: ${data[key]}</li>`;
+            });
+
+            tokenContainer.innerHTML = html.join("");
+          }
+        })
+        .catch((err) => {
+          console.error(err);
+          tokenContainer.innerHTML = "";
+        });
+    };
+
+    const GetSeller = () => {
+      const tokenContainer = document.querySelector(".jwt-wrap .content");
+
+      fetch("https://localhost:7119/api/user/sellers", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${tokenContainer.innerText}`,
+        },
+      })
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+          if (data) {
+            const html = Object.keys(data).map((key) => {
+              return `<li>${key}: ${data[key]}</li>`;
+            });
+
+            tokenContainer.innerHTML = html.join("");
+          }
+        })
+        .catch((err) => {
+          console.error(err);
+          tokenContainer.innerHTML = "";
+        });
+    };
+  </script>
+</html>

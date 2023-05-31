@@ -1,0 +1,59 @@
+﻿@page
+@model L76L77Razor_HTML_Form_Validation_Upload_File.Pages.ContactModel
+
+
+<h1 class="display-4">Trang liên hệ</h1>
+
+@*Để upload được file thì trong form phải có property enctype="multipart/form-data"*@
+<form class="w-50 mt-5 card card-body" method="post" asp-page="Contact" enctype="multipart/form-data">
+	@*Hiển thị tất cả các lỗi validate trên đầu trang*@
+	<div class="text-danger" asp-validation-summary="All"></div>
+
+	<div class="form-group mt-2">
+		<label class="form-label" asp-for="CustommerInfo.CustommerName"></label>
+		<input class="form-control" asp-for="CustommerInfo.CustommerName" />
+		<span class="text-danger" asp-validation-for="CustommerInfo.CustommerName"></span>
+	</div>
+
+	<div class="form-group mt-2">
+		<label class="form-label" asp-for="CustommerInfo.Email"></label>
+		<input class="form-control" asp-for="CustommerInfo.Email" />
+		<span class="text-danger" asp-validation-for="CustommerInfo.Email"></span>
+	</div>
+
+	<div class="form-group mt-2">
+		<label class="form-label" asp-for="CustommerInfo.YearOfBirth"></label>
+		<input class="form-control" asp-for="CustommerInfo.YearOfBirth" />
+		<span class="text-danger" asp-validation-for="CustommerInfo.YearOfBirth"></span>
+	</div>
+
+	@*Upload file*@
+	<div class="form-group mt-2">
+		<label class="form-label" asp-for="FileUpload"></label>
+		<input class="form-control" asp-for="FileUpload" />
+		<span class="text-danger" asp-validation-for="FileUpload"></span>
+	</div>
+	<div class="form-group mt-2">
+		<label class="form-label" asp-for="FilesUpload"></label>
+		<input class="form-control" asp-for="FilesUpload" />
+		<span class="text-danger" asp-validation-for="FilesUpload"></span>
+	</div>
+
+	<div class="form-group mt-2">
+		<button class="btn btn-primary">Submit</button>
+	</div>
+</form>
+
+@if(!string.IsNullOrEmpty(Model.notification))
+{
+	<div class="alert alert-danger w-50 mt-2">@Model.notification</div>
+}
+
+@if(Model.CustommerInfo != null) {
+	<ul class="list-group w-50">
+		<li class="list-group-item active mt-5">Thông tin khách hàng gửi đến</li>
+		<li class="list-group-item">Name: @Model.CustommerInfo.CustommerName</li>
+		<li class="list-group-item">Email: @Model.CustommerInfo.Email</li>
+		<li class="list-group-item">Year of birth: @Model.CustommerInfo.YearOfBirth</li>
+	</ul>
+}

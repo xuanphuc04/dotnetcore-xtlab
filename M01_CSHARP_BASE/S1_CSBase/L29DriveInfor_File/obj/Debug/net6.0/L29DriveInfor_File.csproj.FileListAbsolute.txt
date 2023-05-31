@@ -1,0 +1,15 @@
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\bin\Debug\net6.0\L29DriveInfor_File.exe
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\bin\Debug\net6.0\L29DriveInfor_File.deps.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\bin\Debug\net6.0\L29DriveInfor_File.runtimeconfig.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\bin\Debug\net6.0\L29DriveInfor_File.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\bin\Debug\net6.0\L29DriveInfor_File.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.csproj.AssemblyReference.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.AssemblyInfoInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.AssemblyInfo.cs
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.csproj.CoreCompileInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\refint\L29DriveInfor_File.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\L29DriveInfor_File.genruntimeconfig.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L29DriveInfor_File\obj\Debug\net6.0\ref\L29DriveInfor_File.dll

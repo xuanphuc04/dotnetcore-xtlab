@@ -1,0 +1,15 @@
+﻿@page
+@*url: localhost/dichvu*@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model L67Razor_Base.Pages.DichVu.IndexModel
+
+
+<h1>TRANG DỊCH VỤ</h1>
+
+<a href="/DichVu/DichVu1">Dịch vụ 1</a>
+@*Tương đương với cách sử dụng tagHelpers sau: *@ <br />
+<a asp-page="DichVu1">Dịch vụ 1 (tagHelpers)</a>
+
+
+@*Truy cập đến Razor page trong thư mục Areas*@
+<a asp-page="SanPhamMoi" asp-area="Product">Đến trang sản phẩm</a>

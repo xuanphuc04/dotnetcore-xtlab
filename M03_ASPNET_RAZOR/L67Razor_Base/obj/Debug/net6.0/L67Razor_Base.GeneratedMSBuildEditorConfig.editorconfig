@@ -1,0 +1,69 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = L67Razor_Base
+build_property.RootNamespace = L67Razor_Base
+build_property.ProjectDir = D:\DOTNET\AspNetCoreXTLab\M03_ASPNET_RAZOR\L67Razor_Base\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\DOTNET\AspNetCoreXTLab\M03_ASPNET_RAZOR\L67Razor_Base
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Areas/Product/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Areas/Product/Pages/SanPhamMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHJvZHVjdFxQYWdlc1xTYW5QaGFtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Areas/User/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Areas/User/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVXNlclxQYWdlc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/DichVu/DichVu1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XERpY2hWdTEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/DichVu/DichVu2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XERpY2hWdTIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/DichVu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGljaFZ1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/FirstPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmlyc3RQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/SecondPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2Vjb25kUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/Shared/_MyLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NeUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/ThirdPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGhpcmRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DOTNET/AspNetCoreXTLab/M03_ASPNET_RAZOR/L67Razor_Base/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

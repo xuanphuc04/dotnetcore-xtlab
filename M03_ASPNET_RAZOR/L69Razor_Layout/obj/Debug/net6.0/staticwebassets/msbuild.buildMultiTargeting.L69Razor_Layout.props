@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\L69Razor_Layout.props" />
+</Project>

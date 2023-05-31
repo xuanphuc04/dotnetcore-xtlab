@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "L23Lamda_Delegate/1.0.0": {
+        "runtime": {
+          "L23Lamda_Delegate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "L23Lamda_Delegate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

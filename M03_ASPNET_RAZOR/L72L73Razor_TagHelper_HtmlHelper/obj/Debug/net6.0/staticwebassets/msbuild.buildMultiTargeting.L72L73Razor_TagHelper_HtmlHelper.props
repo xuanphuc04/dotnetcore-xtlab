@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\L72L73Razor_TagHelper_HtmlHelper.props" />
+</Project>

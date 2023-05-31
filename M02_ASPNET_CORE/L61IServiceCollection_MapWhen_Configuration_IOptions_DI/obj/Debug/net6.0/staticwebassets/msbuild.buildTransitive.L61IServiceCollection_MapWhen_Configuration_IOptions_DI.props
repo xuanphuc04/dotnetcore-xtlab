@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\L61IServiceCollection_MapWhen_Configuration_IOptions_DI.props" />
+</Project>

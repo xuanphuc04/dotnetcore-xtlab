@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\L70L71_ViewComponent_Example.props" />
+</Project>

@@ -1,0 +1,13 @@
+﻿@using Models
+@model Product
+
+<div class="card">
+	<div class="card-body">
+		<h4 class="card-title">@Model.Name</h4>
+		<p class="card-text">
+			@Model.Description
+		</p>
+		<h6 class="card-text">Giá: @Model.Price $</h6>
+		<button class="btn btn-primary d-flex ms-auto">Mua hàng</button>
+	</div>
+</div>

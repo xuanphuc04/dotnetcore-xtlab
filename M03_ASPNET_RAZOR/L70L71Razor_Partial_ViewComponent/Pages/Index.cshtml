@@ -1,0 +1,66 @@
+﻿@page
+@using Models
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@*
+    Các cách để chèn Partial View:
+*@
+@*
+<partial name="_PartialItem" />
+
+@await Html.PartialAsync("_PartialItem")
+
+@{
+    // Trả về Task tương đương với void
+    await Html.RenderPartialAsync("_PartialItem");
+}
+*@
+
+@* Truyền dữ liệu cho Partial *@
+@{
+    var product1 = new Product() { Name="iPhone", Description="Điện thoại hãng Apple", Price=1000 };
+    var product2 = new Product() { Name="Samsung", Description="Điện thoại hãng Samsung", Price=900 };
+    var product3 = new Product() { Name="Xiaomi", Description="Điện thoại hãng Xiaomi", Price=800 };
+}
+
+
+
+<div class="row row-cols-3">
+    <div class="col">
+        <partial name="_PartialItem" model="product1" />
+    </div>
+    <div class="col">
+        @await Html.PartialAsync("_PartialItem", product2)
+    </div>
+    <div class="col">
+        @{
+            await Html.RenderPartialAsync("_PartialItem", product3);
+        }
+    </div>
+</div>
+
+
+@{
+    ViewData["message-title"] = "Thông tin sản phẩm";
+    ViewData["message-desc"] = "Thêm sản phẩm thành công";
+
+}
+<div class="mt-4">
+    @await Html.PartialAsync("_Message")
+</div>
+
+
+
+@* ===== Component ===== *@
+@await Component.InvokeAsync("ProductBox", false)
+
+
+@* IndexModel: Index.cshtml.cs *@

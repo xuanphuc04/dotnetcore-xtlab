@@ -1,0 +1,53 @@
+﻿@page "/product/{id:int?}"
+@model L74Razor_PageModel.Pages.ProductPageModel
+
+@{
+	var product = Model.Product;
+	var products = Model.productsService.GetAllProducts();
+}
+
+
+<h1 class="display-4">@ViewData["Title"]</h1>
+
+@if(product != null) {
+	<div class="row row-cols-3">
+		<div class="col">
+			<div class="card">
+				<img class="card-img-top" src="~/img/placeholder.png" />
+				<div class="card-body">
+					<h4 class="card-title">@product.Name ID: @product.Id</h4>
+					<p class="card-subtitle">@product.Description</p>
+					<h5 class="badge bg-primary rounded-pill">@product.Price $</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		@*Form xóa sản phẩm*@
+		<form method="post" asp-page="ProductPage" asp-page-handler="delete" asp-route-id="@product.Id">
+			<button class="btn btn-danger">Xóa</button>
+		</form>
+	</div>
+
+	<div>
+		<a asp-page="/ProductPage" asp-route-id="">Danh sách sản phẩm</a>
+	</div>
+}
+else {
+	<ul class="list-group">
+		@foreach(var item in products)
+		{
+			<li class="list-group-item">
+				<a asp-page="ProductPage" asp-route-id="@item.Id">@item.Name</a>
+				<span class="badge bg-primary rounded-pill">@item.Price $</span>
+			</li>
+		}
+	</ul>
+
+	<div>
+		<a class="btn btn-primary mt-4" asp-page="ProductPage" asp-page-handler="lastproduct">Sản phẩm cuối</a>
+		<a class="btn btn-danger mt-4" asp-page="ProductPage" asp-page-handler="removeall">Xóa tất cả sản phẩm</a>
+		<a class="btn btn-secondary mt-4" asp-page="ProductPage" asp-page-handler="load">Load sản phẩm</a>
+	</div>
+}

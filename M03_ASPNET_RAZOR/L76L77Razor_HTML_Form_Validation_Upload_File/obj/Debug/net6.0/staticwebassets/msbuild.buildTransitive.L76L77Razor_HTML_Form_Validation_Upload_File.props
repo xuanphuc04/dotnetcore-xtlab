@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\L76L77Razor_HTML_Form_Validation_Upload_File.props" />
+</Project>

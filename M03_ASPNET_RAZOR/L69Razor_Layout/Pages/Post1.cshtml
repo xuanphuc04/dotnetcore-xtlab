@@ -1,0 +1,16 @@
+﻿@page
+@model L69Razor_Layout.Pages.Post1Model
+@{
+	Layout = "_PostLayout1";
+
+}
+
+<h1>Trang Bài Viết 1</h1>
+
+@* Section chỉ có thể truyền trực tiếp cho layout cha gần nhất của nó
+   nên trong _PostLayout1 cần định nghĩa 1 section để nhận nội dung
+   rồi truyền cho _MasterLayout
+*@
+@section NoiDungFooter {
+	<p>Footer Bài Viết 1</p>
+}

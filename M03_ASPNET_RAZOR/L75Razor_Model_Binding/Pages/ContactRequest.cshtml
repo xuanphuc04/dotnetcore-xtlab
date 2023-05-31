@@ -1,0 +1,34 @@
+﻿@page
+@model L75Razor_Model_Binding.Pages.ContactRequestModel
+
+
+<h1 class="display-3">Trang Liên Hệ</h1>
+<p class="">Vui lòng nhập thông tin liên hệ</p>
+<hr />
+
+<ul class="list-group">
+	<li class="list-group-item">ID: @Model.UserId</li>
+	<li class="list-group-item">UserName: @Model.UserName</li>
+	<li class="list-group-item">Email: @Model.Email</li>
+</ul>
+
+<form class="p-4" method="post" asp-page="ContactRequest">
+	
+	@*
+		Có thể không cần @Model
+		<input asp-for="UserId" />
+
+		- Đối với trường dữ liệu là đối tượng phức tạp
+		VD: Product thì cần asp-for="@Model.Product.UserId"
+	*@
+	<label class="form-label" asp-for="UserId"></label>
+	<input class="form-control" asp-for="@Model.UserId" />
+	<label class="form-label" asp-for="UserName"></label>
+	<input class="form-control" asp-for="UserName" />
+	<label class="form-label" asp-for="Email"></label>
+	<input class="form-control" asp-for="Email" />
+	<button class="btn btn-primary mt-4">Submit</button>
+</form>
+
+
+

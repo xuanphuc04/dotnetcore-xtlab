@@ -1,0 +1,15 @@
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\bin\Debug\net6.0\L31List.exe
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\bin\Debug\net6.0\L31List.deps.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\bin\Debug\net6.0\L31List.runtimeconfig.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\bin\Debug\net6.0\L31List.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\bin\Debug\net6.0\L31List.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.csproj.AssemblyReference.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.AssemblyInfoInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.AssemblyInfo.cs
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.csproj.CoreCompileInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\refint\L31List.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\L31List.genruntimeconfig.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L31List\obj\Debug\net6.0\ref\L31List.dll

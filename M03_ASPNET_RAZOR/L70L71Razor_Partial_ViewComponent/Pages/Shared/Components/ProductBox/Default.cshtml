@@ -1,0 +1,24 @@
+﻿
+@*Model kiểu string*@
+@*@model string
+<h1>@Model</h1>*@
+
+
+@*Model kiểu List<Product>*@
+@using Models @*Nạp namespace Models*@
+@model List<Product>
+
+<h2 class="border-top border-2 border-primary mt-4">View Component</h2>
+<ul class="list-group">
+@foreach(var product in Model)
+{
+	<li class="list-group-item">
+		<div class="d-flex align-items-center justify-content-between">
+			<h4>@product.Name</h4>
+			<span class="badge bg-primary rounded-pill">@product.Price $</span>
+		</div>
+		<p class="mb-0">@product.Description</p>
+	</li>
+}
+</ul>
+

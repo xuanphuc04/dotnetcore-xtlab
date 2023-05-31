@@ -1,0 +1,10 @@
+﻿
+@{
+	var title = ViewData["message-title"] ?? "Thông báo";
+	var desc = ViewData["message-desc"] ?? "Mô tả";
+}
+
+<div class="alert alert-info">
+	<h6>@title</h6>
+	<p class="mb-0">@desc</p>
+</div>

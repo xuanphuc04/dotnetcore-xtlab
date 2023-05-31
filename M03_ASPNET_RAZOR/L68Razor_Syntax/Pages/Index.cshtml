@@ -1,0 +1,99 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@*
+    - @bieuthuc / @(bieuthuc)
+    - @Html.Raw(string) Chuyển đổi string thành html
+    - @{
+        - code C#
+        - HTML
+        - phương thức cục bộ
+        - <text>
+        - @:
+      }
+
+    - @if, @for, @foreach, @switch,...
+
+    - @functions {
+        Members: Method, field, property
+    }
+
+    - @page "url"
+    - @model Model  khi trang cshtml chạy thì Model sẽ được khởi tạo và truyền cho @model
+
+    - @namespace chỉ định namespace cho trnag cshtml
+    - @using nạp namespace cho trang cshtml
+*@
+
+@{
+    var xinchao = "<h2>Xin chào các bạn</h2>";
+}
+
+<ul>
+    <li>Tổng của 5 và 6 là: @(5+6)</li>
+    <li>@("<h2>Xin chào các bạn</h2>")</li>
+    <li>@xinchao</li>
+    <li>@Html.Raw("<h3>Xin chào các bạn</h3>")</li>
+</ul>
+
+
+@{
+    var loichao = "Xin chào ";
+    // Phương thức cục bộ
+    void Wellcome(string name)
+    {
+        var msg = loichao + name;
+        <h3>@msg</h3>
+    }
+}
+
+@{
+    Wellcome("xuanphuc.space");
+    
+    var products = new string[] { "iPhone", "Samsung", "Xiaomi", "Oppo" };
+    foreach(var product in products)
+    {
+        // Dùng thẻ <text> để xuất ra text thuần không được bọc trong thẻ HTML
+        <text>@product - </text>
+    }
+    <br />
+    foreach (var product in products)
+    {
+        // Dùng @: [nội dung]
+        // tương tự như thẻ <text>
+        @: @product -
+    }
+}
+
+@* Sử dụng if *@
+@if(true)
+{
+    
+} else
+{
+    
+}
+
+
+@* Khai báo thuộc tính và phương thức
+   có thể dùng mọi nơi trong cùng file Razor
+*@
+@functions {
+    // Truy cập bằng this.Title hoặc Title
+    private string Title { set; get; } = "XUAN PHUC";
+
+    public string Abc(string text)
+    {
+        return "Abc";
+    }
+}
+
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "do0DatA9UkanCEtw8tfZd9s/Cp3d2g5tNUYADX1tIUNRSxzuNH7gM4K5AKDNO6Y9VX2U1NjPxponfWGQQAvqQw==",
+  "success": true,
+  "projectFilePath": "D:\\DOTNET\\LearnCS\\CSBase\\XuanThuLab\\S2_Network\\L47Http_Listener_Class\\L47Http_Listener_Class.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuanphucc\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

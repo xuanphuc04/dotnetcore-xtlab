@@ -1,0 +1,46 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<form>
+    <label asp-for="UserName"></label>
+    <input asp-for="UserName" />
+
+    @Html.Label("UserName");
+    @Html.TextBox("UserName");
+</form>
+
+@*
+## asp-page
+## asp-route-id="3" ứng với {id?"} trong url
+
+## LabelTagHelper, InputTagHelper (nên dùng cách này)
+- Trong IndexModel thêm trường:
+[DisplayName("Tên người dùng")]
+public string UserName { set; get } = "xuanphuc"
+- Trong Index.cshtml:
+Với label:
+<label asp-for="UserName"></label>
+=> Tương đương với:
+<label for="UserName">Tên người dùng</label>
+Với input:
+<input asp-for="UserName" />
+=> Tương đương với:
+<input type="text" id="UserName" name="UserName" value="xuanphuc" />
+HtmlHelper
+Để tạo label và input tương tự như TagHelper có thể dùng cách sau:
+@Html.Label("UserName")
+@Html.TextBox("UserName")
+
+## Lưu ý:
+- Thêm dấu ! trước tên thẻ để hủy TagHelper viết như text bình thường
+
+*@

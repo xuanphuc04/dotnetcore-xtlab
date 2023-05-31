@@ -1,0 +1,19 @@
+﻿@{
+	// Lồng _PostLayout1 vào trong _MasterLayout
+	Layout = "_MasterLayout";
+}
+
+<div class="container">
+	<div class="row">
+		<div class="col-3">
+			MENU TRÁI
+		</div>
+		<div class="col-9">
+			@RenderBody()
+		</div>
+	</div>
+</div>
+
+@section NoiDungFooter {
+	@await RenderSectionAsync("NoiDungFooter", required: false);
+}

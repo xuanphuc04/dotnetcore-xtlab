@@ -1,0 +1,42 @@
+*Đặt tên class:
+- Bắt đầu bằng chữ in hoa (không bắt buộc)
+- Tên tệp và tên lớp trùng khớp (không bắt buộc)
+
+*Khai báo: 
+- Nếu khai báo lớp mà không chỉ định phạm vi  thì mặc định là internal
+- Nếu khai báo thành phần bên trong lớp mà không chỉ định phạm vi thì mặc định là private
+
+*Từ khóa static phương thức có thể truy cập mà không cần tạo đối tượng,
+trong khi public chỉ có thể truy cập bởi các đối tượng
+
+*Constructor:
+- Tên phương thức khởi tạo phải khớp với tên lớp và không có kiểu trả về
+- Hàm tạo được gọi khi đối tượng được tạo
+- Hàm tạo có thể được nạp chồng
+public Car(){}
+
+*Tính đa hình:
+- Các lớp khác nhau cùng hiểu một thông điệp theo các cách khác nhau
+- Vd: Lớp động vật có các đối tượng là: mèo, lợn,... và chúng có tiếng kêu khác nhau
+- Có tác dụng: nạp chồng phương thức khi kế thừa
+- Sử dụng từ khóa virtual ở phương thức bên trong lớp cơ sở
+và sử dụng từ khóa override ở phương thức bên trong lớp dẫn xuất
+
+*Tính trừu tượng:
+- Trừu tượng hóa là quá trình ẩn một số chi tiết nhất định,
+  chỉ hiển thị thông tin cần thiết cho người dùng.
+- Vd: Chỉ quan tâm đến chức năng của nó mà không cần biết bản chất bên trong nó thực hiện
+  như thế nào: Khi gửi tin nhắn cho người khác chỉ cần nhập nội dung và bấm gửi
+  mà không cần quan tâm đến cách thức để có thể gửi tin nhắn.
+- Lớp trừu tượng: là lớp bị hạn chế, không thể dùng để tạo đối tượng
+  (để truy cập được thì phải kế thừa)
+- Phương thức trừu tượng: Chỉ có thể được sử dụng trong lớp trừu tượng
+  và nó không có phần thân. Phần thân được cung cấp bởi lớp dẫn xuất.
+- Một lớp trừu tượng có thể có cả phương thức trừu tượng và phương thức thông thường
+- Sử dụng từ khóa abstract cho các lớp và phương thức trừu tượng
+- Sử dụng từ khóa override để ghi đè phương thức của lớp cơ sở
+
+
+*String:
+String showString = String.Format("Tên của bạn: {0}\n Đồng ý điều khoản: {1}", name, isAccept);
+

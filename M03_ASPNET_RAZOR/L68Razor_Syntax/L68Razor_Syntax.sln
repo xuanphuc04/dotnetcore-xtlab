@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L68Razor_Syntax", "L68Razor_Syntax.csproj", "{FA41B700-FDF7-47BD-8FB8-640DAC73B9A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA41B700-FDF7-47BD-8FB8-640DAC73B9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA41B700-FDF7-47BD-8FB8-640DAC73B9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA41B700-FDF7-47BD-8FB8-640DAC73B9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA41B700-FDF7-47BD-8FB8-640DAC73B9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAD351DC-8D75-4C52-9450-0E6F711BD2AF}
+	EndGlobalSection
+EndGlobal

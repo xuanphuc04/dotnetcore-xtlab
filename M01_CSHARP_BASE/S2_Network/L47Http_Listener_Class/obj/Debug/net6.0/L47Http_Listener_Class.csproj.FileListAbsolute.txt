@@ -1,0 +1,17 @@
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\bin\Debug\net6.0\L47Http_Listener_Class.exe
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\bin\Debug\net6.0\L47Http_Listener_Class.deps.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\bin\Debug\net6.0\L47Http_Listener_Class.runtimeconfig.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\bin\Debug\net6.0\L47Http_Listener_Class.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\bin\Debug\net6.0\L47Http_Listener_Class.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.csproj.AssemblyReference.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.AssemblyInfoInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.AssemblyInfo.cs
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.csproj.CoreCompileInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\refint\L47Http_Listener_Class.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.genruntimeconfig.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\ref\L47Http_Listener_Class.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L47Http_Listener_Class\obj\Debug\net6.0\L47Http_Listener_Class.csproj.CopyComplete

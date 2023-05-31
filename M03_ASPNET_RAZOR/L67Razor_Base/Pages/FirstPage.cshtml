@@ -1,0 +1,88 @@
+﻿@page "/trang-dau-tien/{solanlap:int?}"
+@*url: localhost/trang-dau-tien/{solanlap:int?}*@
+@*
+    @page "/trang-dau-tien/{abc} abc phải là chuỗi nếu không có sẽ lỗi"
+    @page "/trang-dau-tien/{count:int} count phải là số nguyên"
+    @page "/trang-dau-tien/{count:int?} count là tùy chọn, nếu có count phải là số nguyên"
+    @page "{id:min(10000)}" id là số nguyên có giá trị >= 10000
+    @page "{username:alpha:minlength(5):maxlength(8)}" username là bắt buộc,
+    phải có cả chữ hoa và chữ thường (không có số), tối thiểu 5 ký tự, tối đa 8 ký tự
+
+    /trang-dau-tien/1
+*@
+@model L67Razor_Base.Pages.FirstPageModel
+
+@*--- Thêm Layout và truyền dữ liệu cho layout bằng ViewData ---*@
+@{
+    // Set layout
+    Layout = "_MyLayout";
+    // Set title
+    ViewData["Title"] = "Trang Đầu Tiên";
+}
+
+<h1>Learn ASP.NET Core</h1>
+<p>Đây là trang cshtml <strong>@DateTime.Now</strong></p>
+@{
+
+    var a = 2;
+    var b = 10;
+    // Lấy giá trị trong Route
+    var solanlapString = this.Request.RouteValues["solanlap"] ?? "0";
+    var solanlap = Int32.Parse(solanlapString.ToString());
+
+    <p>Căn bậc hai của @a là @(Math.Sqrt(a))</p>
+}
+
+@* Có thể sử dụng các biến được khai báo trong khối lệnh khác *@
+<p>Tổng của @a và @b là: @(a + b)</p>
+
+<li>Số lần lặp: @solanlap</li>
+<ol>
+@for(var i = 1; i <= solanlap; i ++) {
+    <li>Dòng thứ @i</li>
+}
+</ol>
+
+
+@*
+    - Có thể khai báo thuộc tính và phương thức
+    - Có thể truy cập mọi nơi trong cùng file Razor bằng toán tử this
+*@
+<p>@this.Wellcome("Xuan Phuc")</p>
+
+@functions {
+    // Khai báo thuộc tính
+    string title { set; get; } = "Day la trang Razor page của xuanphuc";
+
+    // Khai báo phương thức
+    string Wellcome(string name)
+    {
+        return $"Chào mừng {name} đến với website!";
+    }
+}
+
+
+@*--- Sử dụng ViewData["key"] để lưu trữ và truyền dữ liệu ---*@
+@{
+    //ViewData["myData"] = "xuanphuc.space";
+}
+<h4>Data: @ViewData["myData"]</h4>
+
+
+@*--- Handle ---*@
+@functions {
+    // OnGet, OnGetAbc, OnGetXyz,...
+    // OnPost, OnPostAbc,...
+    // Nếu sử dụng @model thì OnGet ở đây không có tác dụng
+
+    // Phương thức được tự động gọi đầu tiên khi truy vấn đến trang
+    // bằng phương thức GET
+    public void OnGet()
+    {
+        Console.WriteLine("Truy cap bang phuong thuc GET");
+        // Khai báo ViewData
+        ViewData["myData"] = "xuanphuc chấm space";
+    }
+}
+
+@*Truy cập thuộc tính và phương thức trong @model bằng cách Model.tenthuoctinh/phuongthuc*@

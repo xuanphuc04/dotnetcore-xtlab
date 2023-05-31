@@ -1,0 +1,15 @@
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\bin\Debug\net6.0\L39Type_Attribute.exe
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\bin\Debug\net6.0\L39Type_Attribute.deps.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\bin\Debug\net6.0\L39Type_Attribute.runtimeconfig.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\bin\Debug\net6.0\L39Type_Attribute.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\bin\Debug\net6.0\L39Type_Attribute.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.csproj.AssemblyReference.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.AssemblyInfoInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.AssemblyInfo.cs
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.csproj.CoreCompileInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\refint\L39Type_Attribute.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\L39Type_Attribute.genruntimeconfig.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L39Type_Attribute\obj\Debug\net6.0\ref\L39Type_Attribute.dll

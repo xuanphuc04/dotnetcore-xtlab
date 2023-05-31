@@ -1,0 +1,31 @@
+﻿@* @page Để chỉ định 1 trang cshtml là Razor Page
+(có endpoint url có thể truy cập được từ client) *@
+@page
+
+@* @model chỉ định Contact là Model của ContactRequest.cshtml
+   tuy nhiên nếu Contact mà không kế thừa từ PageModel
+   thì Contact sẽ chỉ gán cho Model mà không khởi tạo dẫn đến lỗi
+   -> Trường hợp có kế thừa thì ASP.NET tự động liên kết và khởi tạo
+*@
+
+@model ContactRequestModel
+
+@{
+	ViewData["Title"] = "Liên hệ";
+}
+
+<h1 class="display-4">Trang Liên Hệ</h1>
+<p class="lead">Điền các thông tin liên hệ</p>
+<hr />
+@Model.UserId
+@Model.Tong(100, 1000)
+@UserId
+@Tong(9, 1.9)
+
+@functions {
+	public string UserId { set; get; } = "USER12345";
+	public double Tong(double a, double b)
+	{
+		return a + b;
+	}
+}

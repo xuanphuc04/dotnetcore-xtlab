@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "L72L73Razor_TagHelper_HtmlHelper/1.0.0": {
+        "runtime": {
+          "L72L73Razor_TagHelper_HtmlHelper.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "L72L73Razor_TagHelper_HtmlHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

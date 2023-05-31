@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L76L77Razor_HTML_Form_Validation_Upload_File", "L76L77Razor_HTML_Form_Validation_Upload_File.csproj", "{CCCEDF09-6E8D-4022-BFBC-7A0F05706372}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCCEDF09-6E8D-4022-BFBC-7A0F05706372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCEDF09-6E8D-4022-BFBC-7A0F05706372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCEDF09-6E8D-4022-BFBC-7A0F05706372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCEDF09-6E8D-4022-BFBC-7A0F05706372}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBCCF335-75E2-4DA9-A5B0-BF439EAA766B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+
+    // Định nghĩa layout phải được đặt 1 trong các thư mục:
+    // /Pages/_MyLayout.cshtml
+    // /Pages/Shared/_MyLayout.cshtml
+    // /View/Shared/_MyLayout.cshtml
+    Layout = "_MasterLayout";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+@* Chỉ định nội dung cho Section trong _MyLayout1.cshtml *@
+@section NoiDungFooter {
+    <p>Bản quyền thuộc về xuanphuc.space</p>
+}

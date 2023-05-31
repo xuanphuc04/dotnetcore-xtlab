@@ -1,0 +1,15 @@
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\bin\Debug\net6.0\L24Event.exe
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\bin\Debug\net6.0\L24Event.deps.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\bin\Debug\net6.0\L24Event.runtimeconfig.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\bin\Debug\net6.0\L24Event.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\bin\Debug\net6.0\L24Event.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.csproj.AssemblyReference.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.AssemblyInfoInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.AssemblyInfo.cs
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.csproj.CoreCompileInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\refint\L24Event.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\L24Event.genruntimeconfig.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L24Event\obj\Debug\net6.0\ref\L24Event.dll

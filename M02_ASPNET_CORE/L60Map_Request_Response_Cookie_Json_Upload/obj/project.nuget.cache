@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "QDphXbvB6CNtUFIPzS//BaqPipl4SdNL8BxOQZjT0FVGc7YI7mXFoZGdRA1ecusVg2jOBKatpFU0O2FoCA8/dA==",
+  "success": true,
+  "projectFilePath": "D:\\DOTNET\\AspNetCoreXTLab\\M02_ASPNET_CORE\\L60Map_Request_Response_Cookie_Json_Upload\\L60Map_Request_Response_Cookie_Json_Upload.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuanphucc\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\bin\Debug\net6.0\L45HTTP_Client.exe
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\bin\Debug\net6.0\L45HTTP_Client.deps.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\bin\Debug\net6.0\L45HTTP_Client.runtimeconfig.json
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\bin\Debug\net6.0\L45HTTP_Client.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\bin\Debug\net6.0\L45HTTP_Client.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.csproj.AssemblyReference.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.AssemblyInfoInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.AssemblyInfo.cs
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.csproj.CoreCompileInputs.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\refint\L45HTTP_Client.dll
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.pdb
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\L45HTTP_Client.genruntimeconfig.cache
+D:\DOTNET\LearnCS\CSBase\XuanThuLab\L45HTTP_Client\obj\Debug\net6.0\ref\L45HTTP_Client.dll

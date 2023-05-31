@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7xLHrBvf4BmUuQBu2AkE4RKddI4zdJqu+pcM3hDNR8c=",
+  "Source": "L64SmtpClient_MailKit",
+  "BasePath": "_content/L64SmtpClient_MailKit",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
